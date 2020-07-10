@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Successful login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5eef2870-2deb-4d12-81b7-cbd0fa3ddb31</testCaseGuid>
+   <variable>
+      <defaultValue>'sidik'</defaultValue>
+      <description></description>
+      <id>b236c74f-233b-4d58-89ce-111a449d8e85</id>
+      <masked>false</masked>
+      <name>variable_1</name>
+   </variable>
+</TestCaseEntity>

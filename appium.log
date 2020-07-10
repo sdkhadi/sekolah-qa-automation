@@ -1,0 +1,563 @@
+[35m[Appium][39m Welcome to Appium v1.17.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 53320
+[35m[Appium][39m   tmpDir: /var/folders/9c/pjj6lzq12nn61h84hjy7s9mr0000gn/T//Katalon/Appium/Temp1593612654507
+[35m[Appium][39m   chromedriverPort: 53321
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities '{"chromedriverPort":53321}'
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 53321
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:53320
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.17.0"}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m4 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.17.0"}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"newCommandTimeout":1800,"realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","platformVersion":"13.5.1","automationName":"XCUITest","bundleId":"com.telkom.tdsam","waitForAppScript":"true;","platformName":"iOS","udid":"5b46d42157c615db5574ac96f5ab5a962c08132e","deviceName":"sidik’s iPhone","wdaLocalPort":53339},"capabilities":{"firstMatch":[{"appium:automationName":"XCUITest","appium:bundleId":"com.telkom.tdsam","appium:deviceName":"sidik’s iPhone","appium:newCommandTimeout":1800,"platformName":"ios","appium:platformVersion":"13.5.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","appium:udid":"5b46d42157c615db5574ac96f5ab5a962c08132e","appium:waitForAppScript":"true;","appium:wdaLocalPort":53339}]}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"newCommandTimeout":1800,"realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","platformVersion":"13.5.1","automationName":"XCUITest","bundleId":"com.telkom.tdsam","waitForAppScript":"true;","platformName":"iOS","udid":"5b46d42157c615db5574ac96f5ab5a962c08132e","deviceName":"sidik’s iPhone","wdaLocalPort":53339},null,{"firstMatch":[{"appium:automationName":"XCUITest","appium:bundleId":"com.telkom.tdsam","appium:deviceName":"sidik’s iPhone","appium:newCommandTimeout":1800,"platformName":"ios","appium:platformVersion":"13.5.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","appium:udid":"5b46d42157c615db5574ac96f5ab5a962c08132e","appium:waitForAppScript":"true;","appium:wdaLocalPort":53339}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1593612667463 (21:11:07 GMT+0700 (Western Indonesia Time))
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   realDeviceLogger
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.17.0 creating new XCUITestDriver (v3.17.0) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "ios",
+[debug] [35m[BaseDriver][39m     "appium:realDeviceLogger": "/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole",
+[debug] [35m[BaseDriver][39m     "appium:chromedriverPort": 53321,
+[debug] [35m[BaseDriver][39m     "appium:automationName": "XCUITest",
+[debug] [35m[BaseDriver][39m     "appium:bundleId": "com.telkom.tdsam",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "sidik’s iPhone",
+[debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 1800,
+[debug] [35m[BaseDriver][39m     "appium:platformVersion": "13.5.1",
+[debug] [35m[BaseDriver][39m     "appium:udid": "5b46d42157c615db5574ac96f5ab5a962c08132e",
+[debug] [35m[BaseDriver][39m     "appium:waitForAppScript": "true;",
+[debug] [35m[BaseDriver][39m     "appium:wdaLocalPort": 53339
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m Session created with session id: cf8fd49d-7006-410b-9e5f-81f6e06dcbd3
+[debug] [35m[XCUITest][39m Current user: 'sdkhadi'
+[debug] [35m[XCUITest][39m Available devices: 5b46d42157c615db5574ac96f5ab5a962c08132e
+[debug] [35m[XCUITest][39m Creating iDevice object with udid '5b46d42157c615db5574ac96f5ab5a962c08132e'
+[35m[XCUITest][39m Determining device to run tests on: udid: '5b46d42157c615db5574ac96f5ab5a962c08132e', real device: true
+[35m[XCUITest][39m Normalized platformVersion capability value '13.5.1' to '13.5'
+[debug] [35m[BaseDriver][39m Event 'xcodeDetailsRetrieved' logged at 1593612668293 (21:11:08 GMT+0700 (Western Indonesia Time))
+[debug] [35m[BaseDriver][39m Event 'appConfigured' logged at 1593612668294 (21:11:08 GMT+0700 (Western Indonesia Time))
+[debug] [35m[BaseDriver][39m Event 'resetStarted' logged at 1593612668295 (21:11:08 GMT+0700 (Western Indonesia Time))
+[debug] [35m[XCUITest][39m Reset: running ios real device reset flow
+[debug] [35m[BaseDriver][39m Event 'resetComplete' logged at 1593612668295 (21:11:08 GMT+0700 (Western Indonesia Time))
+[debug] [35m[XCUITest][39m Crash reports root '/Users/sdkhadi/Library/Logs/CrashReporter/MobileDevice/sidik’s iPhone' does not exist. Got nothing to gather.
+[debug] [35m[BaseDriver][39m Event 'logCaptureStarted' logged at 1593612668576 (21:11:08 GMT+0700 (Western Indonesia Time))
+[35m[XCUITest][39m Setting up real device
+[35m[WebDriverAgent][39m Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[debug] [35m[WebDriverAgent][39m Error: Command 'lsof -ti tcp\:53339' exited with code 1
+[debug] [35m[WebDriverAgent][39m     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/appium/node_modules/teen_process/lib/exec.js:113:19)
+[debug] [35m[WebDriverAgent][39m     at ChildProcess.emit (events.js:315:20)
+[debug] [35m[WebDriverAgent][39m     at maybeClose (internal/child_process.js:1021:16)
+[debug] [35m[WebDriverAgent][39m     at Process.ChildProcess._handle.onexit (internal/child_process.js:286:5)
+[debug] [35m[WebDriverAgent][39m No obsolete cached processes from previous WDA sessions listening on port 53339 have been found
+[35m[DevCon Factory][39m Requesting connection for device 5b46d42157c615db5574ac96f5ab5a962c08132e on local port 53339, device port 53339
+[debug] [35m[DevCon Factory][39m Cached connections count: 0
+[35m[DevCon Factory][39m Successfully requested the connection for 5b46d42157c615db5574ac96f5ab5a962c08132e:53339
+[debug] [35m[XCUITest][39m Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WebDriverAgent][39m WDA is not listening at 'http://127.0.0.1:53339/'
+[debug] [35m[WebDriverAgent][39m WDA is currently not running. There is nothing to cache
+[debug] [35m[XCUITest][39m Trying to start WebDriverAgent 1 times with 10000ms interval
+[debug] [35m[XCUITest][39m These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+[debug] [35m[BaseDriver][39m Event 'wdaStartAttempted' logged at 1593612668882 (21:11:08 GMT+0700 (Western Indonesia Time))
+[35m[WebDriverAgent][39m Launching WebDriverAgent on the device
+[35m[WebDriverAgent][39m Fetching dependencies
+[35m[WebDriverAgent][39m Dependencies up-to-date
+[debug] [35m[WebDriverAgent][39m Killing running processes 'xcodebuild.*5b46d42157c615db5574ac96f5ab5a962c08132e' for the device 5b46d42157c615db5574ac96f5ab5a962c08132e...
+[debug] [35m[WebDriverAgent][39m 'pgrep -if xcodebuild.*5b46d42157c615db5574ac96f5ab5a962c08132e' didn't detect any matching processes. Return code: 1
+[debug] [35m[WebDriverAgent][39m Beginning test with command 'xcodebuild build-for-testing test-without-building -project /usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination id=5b46d42157c615db5574ac96f5ab5a962c08132e IPHONEOS_DEPLOYMENT_TARGET=13.5 GCC_TREAT_WARNINGS_AS_ERRORS=0 COMPILER_INDEX_STORE_ENABLE=NO' in directory '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[debug] [35m[WebDriverAgent][39m Output from xcodebuild will only be logged if any errors are present there. To change this, use 'showXcodeLog' desired capability
+[debug] [35m[WebDriverAgent][39m Waiting up to 60000ms for WebDriverAgent to start
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WebDriverAgent][39m Log file for xcodebuild test: /Users/sdkhadi/Library/Developer/Xcode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu/Logs/Test/Test-WebDriverAgentRunner-2020.07.01_21-11-12-+0700.xcresult/Staging/2_Test/Diagnostics/WebDriverAgentRunner-92225B7D-584B-4C24-B77E-7FDFF4F20ED3/WebDriverAgentRunner-D606549E-E87C-4A97-9A02-C6C3C339FB5C/Session-WebDriverAgentRunner-2020-07-01_211215-0HhIZf.log
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[iProxy@5b46d421:53339][39m Connection was refused to port 53339
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53339/status] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {
+[debug] [35m[WD Proxy][39m   "value" : {
+[debug] [35m[WD Proxy][39m     "message" : "WebDriverAgent is ready to accept commands",
+[debug] [35m[WD Proxy][39m     "state" : "success",
+[debug] [35m[WD Proxy][39m     "os" : {
+[debug] [35m[WD Proxy][39m       "name" : "iOS",
+[debug] [35m[WD Proxy][39m       "version" : "13.5.1",
+[debug] [35m[WD Proxy][39m       "sdkVersion" : "13.0"
+[debug] [35m[WD Proxy][39m     },
+[debug] [35m[WD Proxy][39m     "ios" : {
+[debug] [35m[WD Proxy][39m       "simulatorVersion" : "13.5.1",
+[debug] [35m[WD Proxy][39m       "ip" : "192.168.1.2"
+[debug] [35m[WD Proxy][39m     },
+[debug] [35m[WD Proxy][39m     "ready" : true,
+[debug] [35m[WD Proxy][39m     "build" : {
+[debug] [35m[WD Proxy][39m       "upgradedAt" : "1591951219903",
+[debug] [35m[WD Proxy][39m       "time" : "Jul  1 2020 21:11:20",
+[debug] [35m[WD Proxy][39m       "productBundleIdentifier" : "com.facebook.WebDriverAgentRunner"
+[debug] [35m[WD Proxy][39m     }
+[debug] [35m[WD Proxy][39m   },
+[debug] [35m[WD Proxy][39m   "sessionId" : "3AC535C9-BE3E-4DAB-9062-D00D2E7EAC9B"
+[debug] [35m[WD Proxy][39m }
+[debug] [35m[WebDriverAgent][39m WebDriverAgent information:
+[debug] [35m[WebDriverAgent][39m {
+[debug] [35m[WebDriverAgent][39m   "message": "WebDriverAgent is ready to accept commands",
+[debug] [35m[WebDriverAgent][39m   "state": "success",
+[debug] [35m[WebDriverAgent][39m   "os": {
+[debug] [35m[WebDriverAgent][39m     "name": "iOS",
+[debug] [35m[WebDriverAgent][39m     "version": "13.5.1",
+[debug] [35m[WebDriverAgent][39m     "sdkVersion": "13.0"
+[debug] [35m[WebDriverAgent][39m   },
+[debug] [35m[WebDriverAgent][39m   "ios": {
+[debug] [35m[WebDriverAgent][39m     "simulatorVersion": "13.5.1",
+[debug] [35m[WebDriverAgent][39m     "ip": "192.168.1.2"
+[debug] [35m[WebDriverAgent][39m   },
+[debug] [35m[WebDriverAgent][39m   "ready": true,
+[debug] [35m[WebDriverAgent][39m   "build": {
+[debug] [35m[WebDriverAgent][39m     "upgradedAt": "1591951219903",
+[debug] [35m[WebDriverAgent][39m     "time": "Jul  1 2020 21:11:20",
+[debug] [35m[WebDriverAgent][39m     "productBundleIdentifier": "com.facebook.WebDriverAgentRunner"
+[debug] [35m[WebDriverAgent][39m   }
+[debug] [35m[WebDriverAgent][39m }
+[debug] [35m[WebDriverAgent][39m WebDriverAgent successfully started after 74423ms
+[debug] [35m[BaseDriver][39m Event 'wdaSessionAttempted' logged at 1593612743364 (21:12:23 GMT+0700 (Western Indonesia Time))
+[debug] [35m[XCUITest][39m Sending createSession command to WDA
+[debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
+[debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:53339/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"com.telkom.tdsam","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true}],"alwaysMatch":{}}}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"sessionId":"07B625F8-DC36-4587-944F-FB6969999E9C","capabilities":{"device":"iphone","browserName":"MyTDS GoBeyond","sdkVersion":"13.5.1","CFBundleIdentifier":"com.telkom.tdsam"}},"sessionId":"07B625F8-DC36-4587-944F-FB6969999E9C"}
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[debug] [35m[BaseDriver][39m Event 'wdaSessionStarted' logged at 1593612746458 (21:12:26 GMT+0700 (Western Indonesia Time))
+[debug] [35m[BaseDriver][39m Event 'wdaStarted' logged at 1593612746459 (21:12:26 GMT+0700 (Western Indonesia Time))
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[debug] [35m[BaseDriver][39m Event 'orientationSet' logged at 1593612746459 (21:12:26 GMT+0700 (Western Indonesia Time))
+[debug] [35m[BaseDriver][39m The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
+[debug] [35m[BaseDriver][39m The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
+[35m[Appium][39m New XCUITestDriver session created successfully, session cf8fd49d-7006-410b-9e5f-81f6e06dcbd3 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1593612746463 (21:12:26 GMT+0700 (Western Indonesia Time))
+[debug] [35m[W3C (cf8fd49d)][39m Cached the protocol value 'W3C' for the new session cf8fd49d-7006-410b-9e5f-81f6e06dcbd3
+[debug] [35m[W3C (cf8fd49d)][39m Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"ios","realDeviceLogger":"/Applications/Katal[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session '33b4769f-7f11-474c-91b0-1ad9f9eabd09' from our master session list
+[35m[DevCon Factory][39m Releasing connections for 8CCB3602-033D-4E10-95FE-FD65735D5590 device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["8CCB3602-033D-4E10-95FE-FD65735D5590:50661"]
+[debug] [35m[DevCon Factory][39m Cached connections count: 0
+[debug] [35m[XCUITest][39m Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[39m Executing command 'getSession'
+[debug] [35m[WD Proxy][39m Matched '/' to command name 'getSession'
+[debug] [35m[WD Proxy][39m Proxying [GET /] to [GET http://127.0.0.1:53339/session/07B625F8-DC36-4587-944F-FB6969999E9C] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {
+[debug] [35m[WD Proxy][39m   "value" : {
+[debug] [35m[WD Proxy][39m     "sessionId" : "07B625F8-DC36-4587-944F-FB6969999E9C",
+[debug] [35m[WD Proxy][39m     "capabilities" : {
+[debug] [35m[WD Proxy][39m       "device" : "iphone",
+[debug] [35m[WD Proxy][39m       "browserName" : "MyTDS GoBeyond",
+[debug] [35m[WD Proxy][39m       "sdkVersion" : "13.5.1",
+[debug] [35m[WD Proxy][39m       "CFBundleIdentifier" : "com.telkom.tdsam"
+[debug] [35m[WD Proxy][39m     }
+[debug] [35m[WD Proxy][39m   },
+[debug] [35m[WD Proxy][39m   "sessionId" : "07B625F8-DC36-4587-944F-FB6969999E9C"
+[debug] [35m[WD Proxy][39m }
+[debug] [35m[WD Proxy][39m Proxying [GET /wda/screen] to [GET http://127.0.0.1:53339/session/07B625F8-DC36-4587-944F-FB6969999E9C/wda/screen] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {
+[debug] [35m[WD Proxy][39m   "value" : {
+[debug] [35m[WD Proxy][39m     "statusBarSize" : {
+[debug] [35m[WD Proxy][39m       "width" : 375,
+[debug] [35m[WD Proxy][39m       "height" : 44
+[debug] [35m[WD Proxy][39m     },
+[debug] [35m[WD Proxy][39m     "scale" : 3
+[debug] [35m[WD Proxy][39m   },
+[debug] [35m[WD Proxy][39m   "sessionId" : "07B625F8-DC36-4587-944F-FB6969999E9C"
+[debug] [35m[WD Proxy][39m }
+[debug] [35m[WD Proxy][39m Proxying [GET /window/size] to [GET http://127.0.0.1:53339/session/07B625F8-DC36-4587-944F-FB6969999E9C/window/size] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {
+[debug] [35m[WD Proxy][39m   "value" : {
+[debug] [35m[WD Proxy][39m     "width" : 375,
+[debug] [35m[WD Proxy][39m     "height" : 812
+[debug] [35m[WD Proxy][39m   },
+[debug] [35m[WD Proxy][39m   "sessionId" : "07B625F8-DC36-4587-944F-FB6969999E9C"
+[debug] [35m[WD Proxy][39m }
+[35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
+[debug] [35m[W3C (cf8fd49d)][39m Responding to client with driver.getSession() result: {"udid":"5b46d42157c615db5574ac96f5ab5a962c08132e","platformName":"ios","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","chromedriverPort":53321,"automationName":"XCUITest","bundleId":"com.telkom.tdsam","deviceName":"sidik’s iPhone","newCommandTimeout":1800,"platformVersion":"13.5.1","waitForAppScript":"true;","wdaLocalPort":53339,"device":"iphone","browserName":"MyTDS GoBeyond","sdkVersion":"13.5.1","CFBundleIdentifier":"com.telkom.tdsam","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":2304}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/cf8fd49d-7006-410b-9e5f-81f6e06dcbd3 [39m[32m200[39m [90m668 ms - 622[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cf8fd49d-7006-410b-9e5f-81f6e06dcbd3[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (cf8fd49d)][39m Calling AppiumDriver.getSession() with args: ["cf8fd49d-7006-410b-9e5f-81f6e06dcbd3"]
+[debug] [35m[XCUITest][39m Executing command 'getSession'
+[35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
+[debug] [35m[W3C (cf8fd49d)][39m Responding to client with driver.getSession() result: {"udid":"5b46d42157c615db5574ac96f5ab5a962c08132e","platformName":"ios","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","chromedriverPort":53321,"automationName":"XCUITest","bundleId":"com.telkom.tdsam","deviceName":"sidik’s iPhone","newCommandTimeout":1800,"platformVersion":"13.5.1","waitForAppScript":"true;","wdaLocalPort":53339,"device":"iphone","browserName":"MyTDS GoBeyond","sdkVersion":"13.5.1","CFBundleIdentifier":"com.telkom.tdsam","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":2304}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/cf8fd49d-7006-410b-9e5f-81f6e06dcbd3 [39m[32m200[39m [90m2 ms - 622[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.17.0"}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m7 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cf8fd49d-7006-410b-9e5f-81f6e06dcbd3/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":60000}[39m
+[debug] [35m[W3C (cf8fd49d)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,60000,"cf8fd49d-7006-410b-9e5f-81f6e06dcbd3"]
+[debug] [35m[XCUITest][39m Executing command 'timeouts'
+[debug] [35m[BaseDriver][39m W3C timeout argument: {"implicit":60000}}
+[debug] [35m[BaseDriver][39m Set implicit wait to 60000ms
+[debug] [35m[W3C (cf8fd49d)][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/cf8fd49d-7006-410b-9e5f-81f6e06dcbd3/timeouts [39m[32m200[39m [90m6 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cf8fd49d-7006-410b-9e5f-81f6e06dcbd3/appium/device/activate_app[39m
+[35m[HTTP][39m [90m{"bundleId":"com.telkom.tdsam"}[39m
+[debug] [35m[W3C (cf8fd49d)][39m Calling AppiumDriver.activateApp() with args: ["com.telkom.tdsam",null,null,null,"cf8fd49d-7006-410b-9e5f-81f6e06dcbd3"]
+[debug] [35m[XCUITest][39m Executing command 'activateApp'
+[debug] [35m[WD Proxy][39m Proxying [POST /wda/apps/launch] to [POST http://127.0.0.1:53339/session/07B625F8-DC36-4587-944F-FB6969999E9C/wda/apps/launch] with body: {"bundleId":"com.telkom.tdsam"}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":null,"sessionId":"07B625F8-DC36-4587-944F-FB6969999E9C"}
+[debug] [35m[W3C (cf8fd49d)][39m Responding to client with driver.activateApp() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/cf8fd49d-7006-410b-9e5f-81f6e06dcbd3/appium/device/activate_app [39m[32m200[39m [90m95 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cf8fd49d-7006-410b-9e5f-81f6e06dcbd3/source[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (cf8fd49d)][39m Calling AppiumDriver.getPageSource() with args: ["cf8fd49d-7006-410b-9e5f-81f6e06dcbd3"]
+[debug] [35m[XCUITest][39m Executing command 'getPageSource'
+[debug] [35m[WD Proxy][39m Matched '/source' to command name 'getPageSource'
+[debug] [35m[WD Proxy][39m Proxying [GET /source] to [GET http://127.0.0.1:53339/session/07B625F8-DC36-4587-944F-FB6969999E9C/source] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {
+[debug] [35m[WD Proxy][39m   "value" : "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<XCUIElementTypeApplication type=\"XCUIElementTypeApplication\" name=\"MyTDS GoBeyond\" label=\"MyTDS GoBeyond\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"375\" height=\"812\">\n  <XCUIElementTypeWindow type=\"XCUIElementTypeWindow\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"375\" height=\"812\">\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"375\" height=\"812\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"375\" height=\"812\">\n        <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"375\" height=\"812\">\n          <XCUIElementTypeOther type=\"XCUIElementTypeOther\" name=\"faqButtonID textIDLoginTitle textIDLoginSubTitle NIK textInputIDNIK errorIDNIK Password Portal textInputIDPassword showPasswordID errorIDPassword...
+[debug] [35m[W3C (cf8fd49d)][39m Responding to client with driver.getPageSource() result: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><AppiumAUT><XCUIElementTypeApplication type=\"XCUIElementTypeApplication\" name=\"MyTDS GoBeyond\" label=\"MyTDS GoBeyond\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"375\" height=\"812\">\n  <XCUIElementTypeWindow type=\"XCUIElementTypeWindow\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"375\" height=\"812\">\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"375\" height=\"812\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"375\" height=\"812\">\n        <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"375\" height=\"812\">\n          <XCUIElementTypeOther type=\"XCUIElementTypeOther\" name=\"faqButtonID textIDLoginTitle textIDLoginSubTitle NIK textInputIDNIK errorIDNIK Password Portal textInputIDPassword showPasswordID errorIDPassword text...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/cf8fd49d-7006-410b-9e5f-81f6e06dcbd3/source [39m[32m200[39m [90m880 ms - 14271[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cf8fd49d-7006-410b-9e5f-81f6e06dcbd3/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (cf8fd49d)][39m Calling AppiumDriver.getScreenshot() with args: ["cf8fd49d-7006-410b-9e5f-81f6e06dcbd3"]
+[debug] [35m[XCUITest][39m Executing command 'getScreenshot'
+[debug] [35m[XCUITest][39m Taking screenshot with WDA
+[debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
+[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:53339/session/07B625F8-DC36-4587-944F-FB6969999E9C/screenshot] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {
+[debug] [35m[WD Proxy][39m   "value" : "iVBORw0KGgoAAAANSUhEUgAABGUAAAmECAIAAAAjR0TuAAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAAEZaADAAQAAAABAAAJhAAAAACsblQTAAAAHGlET1QAAAACAAAAAAAA\r\nBMIAAAAoAAAEwgAABMIAAkTWbOwFXwAAQABJREFUeAHs3YefHMWB9vH3b3nfz3sG\r\naXNS3t2JO7N5VzkgkYQNIvpsjAH7bLCNAz5enPDhyB1gY4wPJ6IxOQtJq0AwBtsg\r\ng5GQUNgwO6nfp6pmRitpmTNqrUL3r90ezXSarm\/N8Jlnq7r6f3lMCCCAAAIIIIAA\r\nAggggAAC0wn8r+kWsgwBBBBAAAEEEEAAAQQQQMAjL\/EhQAABBBBAAAEEEEAAAQSm\r\nFyAvTe\/CUgQQQAABBBBAAAEEEECAvMRnAAEEEEAAAQQQQAABBBCYXoC8NL0LSxFA\r\nAAEEEEAAAQQQQAAB8hKfAQQQQAABBBBAAAEEEEBgegHy0vQuLEUAAQQQQAABBBBA\r\nAAEEyEt8BhBAAAEEEEAAAQQQQACB6QXIS9O7sBQBBBBAAAEEEEAAAQQQIC\/xGUAA\r\nAQQQQAABBBBAAAEEphcgL03vwlIEEEAAAQQQQAABBBBAgLzEZwABBBBAAAEEEEAA\r\nAQQQmF6AvDS9C0sRQAABBBBAAAEEEEAAAfISnwEEEEAAAQQQQAABBBBAYHoB8tL0\r\nLixFAAEEEEAAAQQQQAABBMhLfAYQQAABBBBAAAEEEEAAgekFyEvTu7AUAQQQQAAB\r\nBBBAAAEEECAv8RlAAAEEEEAAAQQQQAABBKYXIC9N78JSBBBAAAEEEEAAAQQQQIC8\r\nxGcAAQQQQAABBBBAAAEEEJhegLw0vQtLEUAAAQQQQAABBBBAAA...
+[debug] [35m[W3C (cf8fd49d)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABGUAAAmECAIAAAAjR0TuAAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAAEZaADAAQAAAABAAAJhAAAAACsblQTAAAAHGlET1QAAAACAAAAAAAA\r\nBMIAAAAoAAAEwgAABMIAAkTWbOwFXwAAQABJREFUeAHs3YefHMWB9vH3b3nfz3sG\r\naXNS3t2JO7N5VzkgkYQNIvpsjAH7bLCNAz5enPDhyB1gY4wPJ6IxOQtJq0AwBtsg\r\ng5GQUNgwO6nfp6pmRitpmTNqrUL3r90ezXSarm/N8Jlnq7r6f3lMCCCAAAIIIIAA\r\nAggggAAC0wn8r+kWsgwBBBBAAAEEEEAAAQQQQMAjL/EhQAABBBBAAAEEEEAAAQSm\r\nFyAvTe/CUgQQQAABBBBAAAEEEECAvMRnAAEEEEAAAQQQQAABBBCYXoC8NL0LSxFA\r\nAAEEEEAAAQQQQAAB8hKfAQQQQAABBBBAAAEEEEBgegHy0vQuLEUAAQQQQAABBBBA\r\nAAEEyEt8BhBAAAEEEEAAAQQQQACB6QXIS9O7sBQBBBBAAAEEEEAAAQQQIC/xGUAA\r\nAQQQQAABBBBAAAEEphcgL03vwlIEEEAAAQQQQAABBBBAgLzEZwABBBBAAAEEEEAA\r\nAQQQmF6AvDS9C0sRQAABBBBAAAEEEEAAAfISnwEEEEAAAQQQQAABBBBAYHoB8tL0\r\nLixFAAEEEEAAAQQQQAABBMhLfAYQQAABBBBAAAEEEEAAgekFyEvTu7AUAQQQQAAB\r\nBBBAAAEEECAv8RlAAAEEEEAAAQQQQAABBKYXIC9N78JSBBBAAAEEEEAAAQQQQIC8\r\nxGcAAQQQQAABBBBAAAEEEJhegLw0vQtLEUAAAQQQQAABBBBAAAHyEp8BBBBAAAEE\r\n...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/cf8fd49d-7006-410b-9e5f-81f6e06dcbd3/screenshot [39m[32m200[39m [90m200 ms - 341176[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/cf8fd49d-7006-410b-9e5f-81f6e06dcbd3[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (cf8fd49d)][39m Calling AppiumDriver.deleteSession() with args: ["cf8fd49d-7006-410b-9e5f-81f6e06dcbd3"]
+[debug] [35m[BaseDriver][39m Event 'quitSessionRequested' logged at 1593612814666 (21:13:34 GMT+0700 (Western Indonesia Time))
+[35m[Appium][39m Removing session cf8fd49d-7006-410b-9e5f-81f6e06dcbd3 from our master session list
+[debug] [35m[WD Proxy][39m Matched '/session/cf8fd49d-7006-410b-9e5f-81f6e06dcbd3' to command name 'deleteSession'
+[debug] [35m[WD Proxy][39m Proxying [DELETE /session/cf8fd49d-7006-410b-9e5f-81f6e06dcbd3] to [DELETE http://127.0.0.1:53339/session/07B625F8-DC36-4587-944F-FB6969999E9C] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {
+[debug] [35m[WD Proxy][39m   "value" : null,
+[debug] [35m[WD Proxy][39m   "sessionId" : "8B77F7C3-CF1D-445A-86F2-DF975EB2257C"
+[debug] [35m[WD Proxy][39m }
+[35m[DevCon Factory][39m Releasing connections for 5b46d42157c615db5574ac96f5ab5a962c08132e device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["5b46d42157c615db5574ac96f5ab5a962c08132e:53339"]
+[35m[DevCon Factory][39m Releasing the listener for '5b46d42157c615db5574ac96f5ab5a962c08132e:53339'
+[debug] [35m[iProxy@5b46d421:53339][39m Closing the connection
+[debug] [35m[DevCon Factory][39m Cached connections count: 0
+[debug] [35m[XCUITest][39m Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[debug] [35m[BaseDriver][39m Event 'quitSessionFinished' logged at 1593612815696 (21:13:35 GMT+0700 (Western Indonesia Time))
+[debug] [35m[W3C (cf8fd49d)][39m Received response: null
+[debug] [35m[W3C (cf8fd49d)][39m But deleting session, so not returning
+[debug] [35m[W3C (cf8fd49d)][39m Responding to client with driver.deleteSession() result: null
+[debug] [35m[W3C (cf8fd49d)][39m Destroying socket connection
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/cf8fd49d-7006-410b-9e5f-81f6e06dcbd3 [39m[32m200[39m [90m1031 ms - 14[39m
+[35m[HTTP][39m [90m[39m
